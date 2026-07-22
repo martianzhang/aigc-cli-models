@@ -18,6 +18,7 @@ Each model retains its original license:
 | `model-distilled-vit.onnx` | onnx-community | Apache 2.0 | same |
 | `model-rmbg-2.0.onnx` | BRIA AI / RMBG 2.0 | CC BY-NC-SA 4.0 | [licenses/CC-BY-NC-SA-4.0.txt](licenses/CC-BY-NC-SA-4.0.txt) |
 | `migan.onnx` | MI-GAN | MIT | [licenses/MIT.txt](licenses/MIT.txt) |
+| `dict_en_words.txt` | [FrequencyWords](https://github.com/hermitdave/FrequencyWords) (hermitdave) | CC BY-SA 4.0 | [licenses/CC-BY-SA-4.0.txt](licenses/CC-BY-SA-4.0.txt) |
 
 ## Usage
 
