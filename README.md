@@ -26,6 +26,12 @@ Each model retains its original license:
 | `aigc-sherpa-helper.*`, `libaigc-sherpa-helper.*` | sherpa-onnx (built from source) | https://github.com/k2-fsa/sherpa-onnx | Apache 2.0 | same |
 | `dict_en_words.txt` | FrequencyWords (hermitdave) | https://github.com/hermitdave/FrequencyWords | CC BY-SA 4.0 | [licenses/CC-BY-SA-4.0.txt](licenses/CC-BY-SA-4.0.txt) |
 | `ideas.json` | aigc-cli (generated) | N/A (bundled data) | MIT | same |
+| `vision_base-int8_vision_encoder.onnx` | Florence-2 (Microsoft) | https://huggingface.co/microsoft/Florence-2-base-ft | MIT | [licenses/MIT.txt](licenses/MIT.txt) |
+| `vision_base-int8_encoder_model.onnx` | Florence-2 (Microsoft) | same | MIT | same |
+| `vision_base-int8_decoder_model.onnx` | Florence-2 (Microsoft) | same | MIT | same |
+| `vision_base-int8_embed_tokens.onnx` | Florence-2 (Microsoft) | same | MIT | same |
+| `vision_base-int8_vocab.json` | Florence-2 (Microsoft) | same | MIT | same |
+| `vision_base-int8_merges.txt` | Florence-2 (Microsoft) | same | MIT | same |
 
 ## Usage
 
