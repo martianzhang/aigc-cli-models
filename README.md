@@ -32,6 +32,8 @@ Each model retains its original license:
 | `vision_base-int8_embed_tokens.onnx` | Florence-2 (Microsoft) | same | MIT | same |
 | `vision_base-int8_vocab.json` | Florence-2 (Microsoft) | same | MIT | same |
 | `vision_base-int8_merges.txt` | Florence-2 (Microsoft) | same | MIT | same |
+| `e5-small-multilingual-model.onnx` | Xenova / intfloat (HuggingFace) | https://huggingface.co/Xenova/multilingual-e5-small | MIT | same |
+| `e5-small-multilingual-tokenizer.json` | Xenova / intfloat (HuggingFace) | same | MIT | same |
 
 ## Usage
 
@@ -41,6 +43,7 @@ Downloaded by `aigc-cli init` commands:
 aigc-cli ocr init
 aigc-cli detect init
 aigc-cli background init
+aigc-cli kb init            # downloads e5-small-multilingual
 ```
 
 Base URL: `https://github.com/martianzhang/aigc-cli-models/releases/download/v1/`
