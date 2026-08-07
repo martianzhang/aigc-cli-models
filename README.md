@@ -34,6 +34,9 @@ Each model retains its original license:
 | `vision_base-int8_merges.txt` | Florence-2 (Microsoft) | same | MIT | same |
 | `e5-small-multilingual-model.onnx` | Xenova / intfloat (HuggingFace) | https://huggingface.co/Xenova/multilingual-e5-small | MIT | same |
 | `e5-small-multilingual-tokenizer.json` | Xenova / intfloat (HuggingFace) | same | MIT | same |
+| `depth-anything-v2-small.onnx` | Depth Anything V2 (LiheYoung / DepthAnything) | https://huggingface.co/onnx-community/depth-anything-v2-small | Apache 2.0 | same |
+| `depth-anything-v2-base.onnx` | Depth Anything V2 (LiheYoung / DepthAnything) | https://huggingface.co/onnx-community/depth-anything-v2-base | CC-BY-NC-4.0 | [licenses/CC-BY-NC-4.0.txt](licenses/CC-BY-NC-4.0.txt) |
+| `depth-anything-v2-large.onnx` | Depth Anything V2 (LiheYoung / DepthAnything) | https://huggingface.co/onnx-community/depth-anything-v2-large | CC-BY-NC-4.0 | same |
 
 ## Usage
 
@@ -44,6 +47,7 @@ aigc-cli ocr init
 aigc-cli detect init
 aigc-cli background init
 aigc-cli kb init            # downloads e5-small-multilingual
+aigc-cli video init         # downloads depth-anything-v2-small (default; --all for base/large)
 ```
 
 Base URL: `https://github.com/martianzhang/aigc-cli-models/releases/download/v1/`
