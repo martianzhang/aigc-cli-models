@@ -37,6 +37,12 @@ Each model retains its original license:
 | `depth-anything-v2-small.onnx` | Depth Anything V2 (LiheYoung / DepthAnything) | https://huggingface.co/onnx-community/depth-anything-v2-small | Apache 2.0 | same |
 | `depth-anything-v2-base.onnx` | Depth Anything V2 (LiheYoung / DepthAnything) | https://huggingface.co/onnx-community/depth-anything-v2-base | CC-BY-NC-4.0 | [licenses/CC-BY-NC-4.0.txt](licenses/CC-BY-NC-4.0.txt) |
 | `depth-anything-v2-large.onnx` | Depth Anything V2 (LiheYoung / DepthAnything) | https://huggingface.co/onnx-community/depth-anything-v2-large | CC-BY-NC-4.0 | same |
+| `yolov8n-pose.onnx` | Xenova / Ultralytics YOLOv8 (HuggingFace) | https://huggingface.co/Xenova/yolov8-pose-onnx | AGPL-3.0 | [licenses/AGPL-3.0.txt](licenses/AGPL-3.0.txt) |
+| `facefinder` | esimov/pigo (pure-Go face detection) | https://github.com/esimov/pigo | MIT | [licenses/MIT.txt](licenses/MIT.txt) |
+| `puploc` | esimov/pigo (pupil localization) | same | MIT | same |
+| `lps/lp38`, `lps/lp42`, `lps/lp44`, `lps/lp46` | esimov/pigo (eye landmarks) | same | MIT | same |
+| `lps/lp312` | esimov/pigo (eye landmark) | same | MIT | same |
+| `lps/lp81`, `lps/lp82`, `lps/lp84`, `lps/lp93` | esimov/pigo (mouth/nose landmarks) | same | MIT | same |
 
 ## Usage
 
@@ -48,6 +54,9 @@ aigc-cli detect init
 aigc-cli background init
 aigc-cli kb init            # downloads e5-small-multilingual
 aigc-cli video init         # downloads depth-anything-v2-small (default; --all for base/large)
+aigc-cli depth init         # downloads depth-anything-v2-small (default)
+aigc-cli depth init --skeleton  # downloads yolov8n-pose.onnx
+aigc-cli depth init --face      # downloads pigo cascades (facefinder/puploc/lps/*)
 ```
 
 Base URL: `https://github.com/martianzhang/aigc-cli-models/releases/download/v1/`
