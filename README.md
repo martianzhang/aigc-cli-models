@@ -37,6 +37,14 @@ Each model retains its original license:
 | `depth-anything-v2-small.onnx` | Depth Anything V2 (LiheYoung / DepthAnything) | https://huggingface.co/onnx-community/depth-anything-v2-small | Apache 2.0 | same |
 | `depth-anything-v2-base.onnx` | Depth Anything V2 (LiheYoung / DepthAnything) | https://huggingface.co/onnx-community/depth-anything-v2-base | CC-BY-NC-4.0 | [licenses/CC-BY-NC-4.0.txt](licenses/CC-BY-NC-4.0.txt) |
 | `depth-anything-v2-large.onnx` | Depth Anything V2 (LiheYoung / DepthAnything) | https://huggingface.co/onnx-community/depth-anything-v2-large | CC-BY-NC-4.0 | same |
+| `upscale-realesr-general-x4v3.onnx` | Real-ESRGAN (xinntao) | https://github.com/xinntao/Real-ESRGAN | BSD-3-Clause | [licenses/BSD-3-Clause.txt](licenses/BSD-3-Clause.txt) |
+| `upscale-real-esrgan-x4plus.onnx` | Real-ESRGAN (xinntao) | same | BSD-3-Clause | same |
+| `upscale-real-esrgan-x4plus-anime-6b.onnx` | Real-ESRGAN (xinntao) | same | BSD-3-Clause | same |
+| `upscale-real-esrgan-animevideov3.onnx` | Real-ESRGAN (xinntao) | same | BSD-3-Clause | same |
+| `upscale-real-cugan-2x.onnx` | Real-CUGAN (bilibili) | https://github.com/bilibili/ailab/tree/main/Real-CUGAN | MIT | [licenses/MIT.txt](licenses/MIT.txt) |
+| `upscale-swin2sr-lightweight-x2.onnx` | Swin2SR (mv-lab) | https://github.com/mv-lab/swin2sr | Apache 2.0 | [licenses/Apache-2.0.txt](licenses/Apache-2.0.txt) |
+| `upscale-swin2sr-realworld-x4.onnx` | Swin2SR (mv-lab) | same | Apache 2.0 | same |
+| `upscale-MODELS-LICENSE.txt` | aigc-cli (license summary of the rows above) | N/A | N/A | N/A |
 | `yolov8n-pose.onnx` | Xenova / Ultralytics YOLOv8 (HuggingFace) | https://huggingface.co/Xenova/yolov8-pose-onnx | AGPL-3.0 | [licenses/AGPL-3.0.txt](licenses/AGPL-3.0.txt) |
 | `facefinder` | esimov/pigo (pure-Go face detection) | https://github.com/esimov/pigo | MIT | [licenses/MIT.txt](licenses/MIT.txt) |
 | `puploc` | esimov/pigo (pupil localization) | same | MIT | same |
@@ -57,6 +65,8 @@ aigc-cli video init         # downloads depth-anything-v2-small (default; --all 
 aigc-cli depth init         # downloads depth-anything-v2-small (default)
 aigc-cli depth init --skeleton  # downloads yolov8n-pose.onnx
 aigc-cli depth init --face      # downloads pigo cascades (facefinder/puploc/lps/*)
+aigc-cli upscale init           # downloads the default super-resolution model (Real-ESRGAN x4v3)
+aigc-cli upscale init --model real-cugan-2x   # or a specific upscale model
 ```
 
 Base URL: `https://github.com/martianzhang/aigc-cli-models/releases/download/v1/`
