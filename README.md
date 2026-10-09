@@ -44,6 +44,9 @@ Each model retains its original license:
 | `upscale-real-cugan-2x.onnx` | Real-CUGAN (bilibili) | https://github.com/bilibili/ailab/tree/main/Real-CUGAN | MIT | [licenses/MIT.txt](licenses/MIT.txt) |
 | `upscale-swin2sr-lightweight-x2.onnx` | Swin2SR (mv-lab) | https://github.com/mv-lab/swin2sr | Apache 2.0 | [licenses/Apache-2.0.txt](licenses/Apache-2.0.txt) |
 | `upscale-swin2sr-realworld-x4.onnx` | Swin2SR (mv-lab) | same | Apache 2.0 | same |
+| `upscale-real-esrgan-x4plus-anime-4b32f.onnx` | Real-ESRGAN (xinntao) | same | BSD-3-Clause | same |
+| `upscale-swin2sr-classical-x4.onnx` | Swin2SR (mv-lab) | same | Apache 2.0 | same |
+| `upscale-swin2sr-compressed-x4.onnx` | Swin2SR (mv-lab) | same | Apache 2.0 | same |
 | `yolov8n-pose.onnx` | Xenova / Ultralytics YOLOv8 (HuggingFace) | https://huggingface.co/Xenova/yolov8-pose-onnx | AGPL-3.0 | [licenses/AGPL-3.0.txt](licenses/AGPL-3.0.txt) |
 | `facefinder` | esimov/pigo (pure-Go face detection) | https://github.com/esimov/pigo | MIT | [licenses/MIT.txt](licenses/MIT.txt) |
 | `puploc` | esimov/pigo (pupil localization) | same | MIT | same |
